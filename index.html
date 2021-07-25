@@ -9,6 +9,13 @@
     <!-- bootstrap 5 css link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- google font links  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monda&display=swap" rel="stylesheet">
+
+    <!-- personla styling  -->
     <style>
         .img-trans:hover {
             transform: scale(1.05);
@@ -17,6 +24,21 @@
 
         .cust-width {
             width: 200px;
+        }
+
+        .map-responsive {
+            overflow: hidden;
+            padding-bottom: 50%;
+            position: relative;
+            height: 0;
+        }
+
+        .map-responsive iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
         }
     </style>
 
@@ -358,6 +380,36 @@
 
     </main>
     <footer>
+        <div class="container my-5 shadow">
+            <div class="row align-items-centermy-5 ">
+                <div class="col-sm-12 col-md-12 col-lg-6 " style="font-family: 'Monda', sans-serif;">
+
+                    <h4>Address</h4>
+                    <p>West Medda, Arambag, Pirbari, Brahmanbaria Sadar, Brahmanbaria</p>
+                    <br><br>
+                    <h4>Contact No</h4>
+                    <p> 01717 676889</p>
+                    <p> 01717 676889</p>
+                    <br><br>
+                    <h4>Email Address</h4>
+                    <p>baithakkhana@gmail.com</p>
+                    <p>baithakkhana@gmail.com</p>
+                    <br><br>
+                    <h4>Email Address</h4>
+                    <p>baithakkhana@gmail.com</p>
+                    <p>baithakkhana@gmail.com</p>
+
+
+
+                </div>
+                <div class="map-responsive col-sm-12 col-md-12 col-lg-6 px-4 ">
+                    <iframe width="600" height="300" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=Pirbari%20Bus%20Stop,%20Pirbare,%20Comilla%20-%20Brahmanbaria%20Hwy,%20Brahmanbaria%203400&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+                </div>
+            </div>
+        </div>
 
     </footer>
 
